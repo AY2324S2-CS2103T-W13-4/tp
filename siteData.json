@@ -120,7 +120,7 @@
         "adding-a-task-addtask": "Adding a task: addtask",
         "assigning-a-task-assign": "Assigning a task: assign",
         "marking-a-task-marktask": "Marking a task: marktask",
-        "unmarking-a-person-unmarktask": "Unmarking a person: unmarktask",
+        "unmarking-a-task-unmarktask": "Unmarking a task: unmarktask",
         "deleting-a-task-deletetask": "Deleting a task: deletetask",
         "listing-the-tasks-listtask": "Listing the tasks: listtask",
         "exiting-the-program-exit": "Exiting the program : exit",
