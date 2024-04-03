@@ -137,13 +137,6 @@ public class ModelManager implements Model {
         addressBook.setPerson(target, editedPerson);
     }
 
-    @Override
-    public void setPersonTask(Task target, Task editedTask) {
-        requireAllNonNull(target, editedTask);
-
-        addressBook.setTask(target, editedTask);
-    }
-
     // =========== Task Manager
     // ===============================================================================
 
@@ -160,18 +153,16 @@ public class ModelManager implements Model {
     }
 
     @Override
-    public void setTask(Task target, Task editedTask) {
-        requireAllNonNull(target, editedTask);
-
-        taskList.setTask(target, editedTask);
-        setPersonTask(target, editedTask);
-        taskList.sortByPriority();
-    }
-
-    @Override
     public boolean hasTask(Task task) {
         requireNonNull(task);
         return taskList.hasTask(task);
+    }
+
+    @Override
+    public void setTask(Task target, Task editedTask) {
+        requireAllNonNull(target, editedTask);
+        taskList.setTask(target, editedTask);
+        taskList.sortByPriority();
     }
 
     /**
@@ -192,7 +183,8 @@ public class ModelManager implements Model {
     }
 
     /**
-     * Returns an unmodifiable view of the list of {@code Task}.
+     * Returns an unmodifiable view of the list of {@code Task} backed by the internal list of
+     * {@code versionedAddressBook}
      */
     @Override
     public ObservableList<Task> getFilteredTaskList() {
@@ -243,4 +235,5 @@ public class ModelManager implements Model {
                 && filteredPersons.equals(otherModelManager.filteredPersons)
                 && filteredTasks.equals(otherModelManager.filteredTasks);
     }
+
 }
