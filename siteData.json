@@ -41,7 +41,6 @@
       "title": "Developer Guide",
       "headings": {
         "teamtracker-developer-guide": "TeamTracker Developer Guide",
-        "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
         "architecture": "Architecture",
@@ -63,6 +62,8 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
+        "deleting-a-task": "Deleting a task",
+        "editing-a-task": "Editing a task",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
