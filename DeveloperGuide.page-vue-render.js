@@ -356,6 +356,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_v("Dealing with missing data files\n"),_c('ol',[_c('li',[_c('p',[_v("Prerequisites: One or more of the data files does not exist in the data folder.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: tasklist.json is missing from the data folder on launch"),_c('br'),_v("\nExpected: TeamTracker should still launch and function as normal.")])]),_v(" "),_c('li',[_c('p',[_v("Other missing files: addressbook.json or both the data files"),_c('br'),_v("\nExpected: Similar to previous.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 10:46:34 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 14:18:03 GMT+8]")])])])}
 }];
   
